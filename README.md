@@ -26,6 +26,16 @@ This project fetches reviews for any app from the Google Play Store and performs
 
 - Data Processing: pandas
 
+## Sentiment Analysis Model
+This project uses the DistilBERT base uncased finetuned SST-2 model from Hugging Face for sentiment analysis. This model is a lightweight, fast, and accurate transformer-based model trained on the Stanford Sentiment Treebank (SST-2) dataset.
+
+- **Model Name**: distilbert-base-uncased-finetuned-sst-2-english
+- **Framework**: Hugging Face Transformers
+- **Task**: Sentiment Analysis (binary: positive/negative, with probability scores)
+- **Usage**: The model analyzes each review and provides a sentiment score, which is then mapped to categories: Very Positive, Positive, Neutral, Negative, or Very Negative.
+  
+**Reference**: https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
+
 ## Prerequisites
 
 Before starting, ensure you have the following installed:
