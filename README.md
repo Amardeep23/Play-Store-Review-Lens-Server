@@ -44,6 +44,8 @@ Before starting, ensure you have the following installed:
 
 - SerpAPI API Key (for fetching Google Play reviews)
 
+- SERP API LINK AND DOC- https://serpapi.com/google-play-product-api
+
 ## Installation
 
 1. Clone the repository:
